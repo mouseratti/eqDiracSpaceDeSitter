@@ -1,0 +1,33 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "restart;\ns:=f(t):\ndi
+ff(s,t$2)+omega^2*s=0;\ndsolve(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+/,&-%%diffG6$-%\"fG6#%\"tG-%\"$G6$F+\"\"#\"\"\"*&)%&omegaGF/F0F(F0F0\"
+\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%\"fG6#%\"tG,&*&%$_C1G\"\"\"-
+%$sinG6#*&%&omegaGF+F'F+F+F+*&%$_C2GF+-%$cosGF.F+F+" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 247 "restart;\n#omega:=0:\n#alpha:=0:\n_F1(x):=_C1*exp(_c[1]*x): \n_
+F2(t):=_C2*sin((alpha*_c[1]+omega^2)^(1/2)*t)+_C3*cos((alpha*_c[1]+ome
+ga^2)^(1/2)*t):\nf(x,t) := _F1(x)*_F2(t):\ns:=f(x,t);\ndiff(s,t$2)+alp
+ha*diff(s,x)+omega^2*s=0:\nsimplify(%);\n#pdsolve(%);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%\"sG*(%$_C1G\"\"\"-%$expG6#*&&%#_cG6#F'F'%\"xGF'
+F',&*&%$_C2GF'-%$sinG6#*&,&*&%&alphaGF'F,F'F'*$)%&omegaG\"\"#F'F'#F'F=
+%\"tGF'F'F'*&%$_C3GF'-%$cosGF5F'F'F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#/\"\"!F$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 100 "dsolve(\{diff(_F2(t),`$`(t,2)) = -
+alpha*_c[1]*_F2(t)-omega^2*_F2(t), diff(_F1(x),x) = _c[1]*_F1(x)\});" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#<$/-%$_F1G6#%\"xG*&%$_C1G\"\"\"-%$ex
+pG6#*&&%#_cG6#F+F+F(F+F+/-%$_F2G6#%\"tG,&*&%$_C2GF+-%$sinG6#*&,&*&%&al
+phaGF+F0F+F+*$)%&omegaG\"\"#F+F+#F+FEF7F+F+F+*&%$_C3GF+-%$cosGF=F+F+" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}}{MARK "6 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 
+1 2 33 1 1 }
